@@ -1,0 +1,212 @@
+.faculty-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.faculty-member {
+    display: flex; /* Use flexbox for horizontal layout */
+    flex-direction: column; /* Stack items vertically within each member */
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faculty-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* width: 100%;
+    height: auto; */
+    /* border-radius: 50%; */
+}
+
+.faculty-info {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.faculty-info h3 {
+    margin: 10px 0 5px;
+}
+
+.faculty-info p {
+    margin: 5px 0;
+    word-wrap: break-word; /* Ensures long URLs break within the container */
+    word-break: break-all;
+}
+
+.faculty-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.faculty-info a:hover {
+    text-decoration: underline;
+}
+.student-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.student-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add some space between rows */
+}
+
+.student-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.student-info {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.student-info h3 {
+    margin: 10px 0 5px;
+}
+
+.student-info p {
+    margin: 5px 0;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.student-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.student-info a:hover {
+    text-decoration: underline;
+}
+.header-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-title {
+    font-size: 2em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-line {
+    flex: 1;
+    height: 1px;
+    background-color: #000;
+    margin: 0 70px;
+    /* margin: 0 10px; */
+    /* margin-left: 100px;  */
+    /* Add padding to the start and end */
+   
+}
+.phd-info h2{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.phd-info p,strong{
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    margin-right: 12%;
+    font-weight: 550;
+    word-wrap: break-word; /* Break long words */
+    word-break: break-word; /* Break long words */
+    overflow-wrap: break-word; /* Break long words */
+}
+.phd-info table  {
+    width: 90%; /* Reduce the width to make sure it fits within the margins */
+    max-width: 800px; /* Optional: set a maximum width */
+    border-collapse: collapse;
+    margin: 20px auto; /* Center the table and add margins on both sides */
+   
+}
+.phd-info table th, td {
+    border: 1.5px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.phd-info table th {
+    background-color: #f2f2f2;
+}
+.phd-info .topmost-heading th {
+    background-color: #C40C0C;
+    color: white;
+}
+
+
+/* News */
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.news-topic {
+    display: flex; /* Use flexbox for horizontal layout */
+    flex-direction: column; /* Stack items vertically within each member */
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* width: 100%;
+    height: auto; */
+    /* border-radius: 50%; */
+}
+
+.news-info {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.news-info p {
+    margin: 10px 0 5px;
+}
+
+
+
+.news-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.news-info a:hover {
+    text-decoration: underline;
+}
